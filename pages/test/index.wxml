@@ -1,0 +1,6 @@
+<view class="wapper">
+<view class="list" wx:for='{{herolist}}' wx:key='*this'>
+<image class="img" src="{{item.icon}}"></image>
+<text>{{item.heroName}}</text>
+</view>
+</view>

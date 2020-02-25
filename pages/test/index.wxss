@@ -1,0 +1,19 @@
+/* pages/goods/index.wxss */
+.wapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33.3%;
+  margin-top: 20px;
+}
+.img{
+  width: 72px;
+  height: 72px;
+}
+text{
+  font-size: 12px;
+}
